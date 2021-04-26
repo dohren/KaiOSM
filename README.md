@@ -1,6 +1,6 @@
 # KaiOSM
 
-This is a KaiOS App for [OpenStreetMap ](https://www.openstreetmap.org). You can record and add tracks to your phone. 
+This is a KaiOS App for [OpenStreetMap ](https://www.openstreetmap.org). You can record and upload tracks to your phone. 
 
 ## Tools you will need
 
