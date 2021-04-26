@@ -1,0 +1,39 @@
+<template>
+    <kaiui-content>
+      <map-component/>
+    </kaiui-content>
+</template>
+
+<script>
+
+import MapComponent from './components/Map.vue'
+
+export default {
+  name: 'App',
+  components: {
+    MapComponent
+  }
+}
+</script>
+
+<style>
+html {
+  min-width: 240px;
+  
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  
+}
+
+:root{
+ --primary-color: red;
+ --primary-dark-color: #02b51e;
+} 
+
+</style>

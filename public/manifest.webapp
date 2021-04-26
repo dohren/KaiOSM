@@ -1,0 +1,31 @@
+{
+  "version": "1.0.1",
+  "name": "KaiOSM",
+  "description": "KaiOSM",
+  "type": "privileged",
+  "launch_path": "/index.html",
+  "icons": {
+    "56": "/assets/icons/wanderer_logo_56.png",
+    "112": "/assets/icons/wanderer_logo_112.png"
+  },
+  "developer": {
+    "name": "Andreas Dohren",
+    "url": "https://github.com/dohren"
+  },
+  "permissions": {
+    "geolocation": {
+      "description": "Required to share geolocation"
+    },
+    "device-storage:sdcard": { 
+        "access": "readwrite" 
+    }
+  },
+  "locales": {
+    "en-US": {
+      "name": "KaiOSM",
+      "subtitle": "KaiOS Openstreetmap implementation",
+      "description": "Sample Vue KaiUI App for KaiOS"
+    }
+  },
+  "default_locale": "en-US"
+}
